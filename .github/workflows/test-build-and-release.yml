@@ -40,7 +40,7 @@ jobs:
           gcc operations.c simplecalculator.c -o simplecalculator
       - name: Create neptun
         run: |
-          exho "nb79ax" > nb79ax.txt
+          echo "nb79ax" > nb79ax.txt
       - name: Creating tar.gz
         run: |
           tar -czvf simplecalculator.tar.gz simplecalculator nb79ax.txt
